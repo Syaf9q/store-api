@@ -13,7 +13,8 @@ app.use(express.json());
 
 app.get("/", (req, res) => {
     res.status(200).send(
-        `<h1>STORE API</h1><a href="/api/v1/products">products route</a>`
+        `<h1>STORE API</h1>
+        <a href="/api/v1/products">products route</a>`
     );
 });
 
